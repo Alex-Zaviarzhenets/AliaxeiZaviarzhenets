@@ -1,12 +1,63 @@
+console.log(' ')
+console.log('цикл for который выводит каждый 2 элемент')
+console.log(' ')
+
 for (let i = 0; i<=10; i+=2 )
 {
     console.log(i);
 }
 
+console.log(' ')
+console.log('цикл for который выводит каждое число от 55 до 20 ')
+console.log(' ')
+
 for (let i=55; i>=20; i--){
     console.log(i);
 }
 
-const numbers = [3, 5, 11, 2, 8, 1, 6]
+console.log(' ')
+console.log('дан массив numbers нужно вывести все числа массива ')
+console.log(' ')
 
+const numbers = [3, 5, 11, 2, 8, 1, 6]
 console.log(numbers)
+
+console.log(' ')
+console.log('возведение в квадрат ')
+console.log(' ')
+
+numbers_squered = [ ];
+for( let number of numbers){
+    numbers_squered.push(Math.pow(number, 2))
+}
+console.log(numbers_squered)
+
+console.log(' ')
+console.log('последний элемент из масива ')
+console.log(' ')
+
+let last_element = numbers_squered[numbers_squered.lenght - 1]
+console.log(last_element)
+
+console.log(' ')
+console.log('параметры обьекта ')
+console.log(' ')
+
+const user = {
+    first_name: 'aliaksei',
+    surname: 'zaviarzhenets',
+    age: 25,
+};
+console.log(
+    'users name',
+    user.first_name,
+    'users surname', 
+    user.surname,
+    'age',
+    user.age
+    
+);
+
+
+
+
